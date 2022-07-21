@@ -2,8 +2,9 @@ package com.zipcodewilmington.froilansfarm.Animal;
 
 import com.zipcodewilmington.froilansfarm.GenericUtils.Eater;
 import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
+import com.zipcodewilmington.froilansfarm.Produce.Produce;
 
-public class Chicken <ChickenType> extends Animal {
+public class Chicken extends Animal implements Produce {
 
     public Chicken(Integer id, Integer age, Boolean hasBeenFed){
         super(id, age, hasBeenFed);
