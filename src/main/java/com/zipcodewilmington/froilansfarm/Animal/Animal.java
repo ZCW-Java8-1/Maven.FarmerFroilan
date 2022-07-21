@@ -1,4 +1,10 @@
 package com.zipcodewilmington.froilansfarm.Animal;
 
-public abstract class Animal {
+import com.zipcodewilmington.froilansfarm.GenericUtils.Eater;
+import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
+
+public abstract class Animal implements NoiseMaker, Eater {
+    Integer id;
+    Integer age;
+    Boolean hasBeenFed;
 }
