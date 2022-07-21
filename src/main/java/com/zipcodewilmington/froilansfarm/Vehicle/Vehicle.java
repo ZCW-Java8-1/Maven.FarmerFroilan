@@ -1,4 +1,9 @@
 package com.zipcodewilmington.froilansfarm.Vehicle;
 
-public interface Vehicle {
+import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
+import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
+
+public interface Vehicle<VehicleT extends Rider> extends NoiseMaker {
+
+    void operate();
 }
