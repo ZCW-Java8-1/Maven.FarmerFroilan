@@ -1,4 +1,5 @@
 package com.zipcodewilmington.froilansfarm.GenericUtils;
 
-public interface Eater {
+public interface Eater <EaterType> {
+     void eat();
 }

@@ -1,4 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Animal;
 
-public class Horse {
+import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
+
+public class Horse <HorseType extends Rider>{
 }
