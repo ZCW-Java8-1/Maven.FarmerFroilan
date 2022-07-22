@@ -8,10 +8,6 @@ import java.util.HashMap;
 public class Silo<T extends Holdable> {
         static HashMap<Produce,Integer> storage = new HashMap<Produce, Integer>();
 
-//        public void addProduce(Produce produce, Integer integer){
-//            storage.put(produce,integer);
-//        }
-
         public Silo(Produce produce, Integer integer){
 //            storage.put(corn, 0);
 //            storage.put(tomato, 0);
