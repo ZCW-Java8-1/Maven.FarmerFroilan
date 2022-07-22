@@ -24,6 +24,6 @@ public class Tractor<TractorT extends Farmer> extends Vehicle implements FarmVeh
     }
 
     public String makeNoise() {
-        return null;
+        return "vroooom";
     }
 }

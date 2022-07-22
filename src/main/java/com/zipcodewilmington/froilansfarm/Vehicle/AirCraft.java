@@ -11,7 +11,7 @@ public class AirCraft extends Vehicle<Pilot> {
     };
 
     public String makeNoise() {
-        return null;
+        return "chopchopchop";
     }
 
     public Boolean mounted() {
