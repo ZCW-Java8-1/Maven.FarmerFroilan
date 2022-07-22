@@ -15,7 +15,7 @@ public class CropDuster extends AirCraft implements FarmVehicle {
 
     }
 
-    public String makeNoise() {
-        return null;
+    public void makeNoise() {
+
     }
 }
