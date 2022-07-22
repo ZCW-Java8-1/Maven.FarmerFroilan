@@ -4,4 +4,11 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 import com.zipcodewilmington.froilansfarm.Vehicle.AirCraft;
 
 public class Pilot <Person> implements Rider, AirCraft {
+    public void mount() {
+
+    }
+
+    public void dismount() {
+
+    }
 }

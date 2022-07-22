@@ -1,5 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Person;
 
-public class Botanist < Farmer > {
+public class Botanist <Farmer>  {
+
 
 }
