@@ -1,7 +1,10 @@
 package com.zipcodewilmington.froilansfarm.Person;
 
-public class Botanist <Farmer>  {
+public class Botanist {
 
-public void plant(){}
+    public boolean plant() {
+
+        return false;
+    }
 
 }
