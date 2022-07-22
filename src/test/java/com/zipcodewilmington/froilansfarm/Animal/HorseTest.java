@@ -20,4 +20,12 @@ public class HorseTest {
     @Test
     public void dismounted() {
     }
+
+    @Test
+    public void makeNoiseTest(){
+        Horse horse = new Horse();
+        String noise = "Neigh!";
+        Assert.assertEquals(noise, horse.makeNoise());
+
+    }
 }
