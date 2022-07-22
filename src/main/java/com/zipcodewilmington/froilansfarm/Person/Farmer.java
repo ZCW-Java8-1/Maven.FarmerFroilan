@@ -4,7 +4,7 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.Eater;
 import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 
-public class Farmer <Person> implements Rider  {
+public class Farmer <Person> extends Botanist implements Rider  {
 
     public void mount() {
         
