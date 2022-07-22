@@ -16,7 +16,7 @@ public class HorseTest {
         Assert.assertTrue(horse instanceof Animal);
     }
     @Test
-    public void mounted() {
+    public void mountedTest() {
         //Given
         Horse horse = new Horse();
         Farmer farmer = new Farmer();
@@ -25,12 +25,12 @@ public class HorseTest {
     }
 
     @Test
-    public void dismounted() {
+    public void dismountedTest() {
         //Given
         Horse horse = new Horse();
         Farmer farmer = new Farmer();
         //When
-        Assert.assertEquals(horse.dismounted(), farmer.dismount());
+        Assert.assertEquals(true, farmer.dismount(horse));
     }
 
     @Test
