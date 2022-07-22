@@ -25,7 +25,8 @@ public class Chicken extends Animal implements Produce {
         return null;
     }
 
-    public void makeNoise() {
-
+@Override
+    public String makeNoise() {
+        return "Peep!";
     }
 }
