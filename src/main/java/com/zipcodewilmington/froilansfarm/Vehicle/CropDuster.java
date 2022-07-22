@@ -3,21 +3,15 @@ package com.zipcodewilmington.froilansfarm.Vehicle;
 import com.zipcodewilmington.froilansfarm.Produce.CropRow;
 
 public class CropDuster extends AirCraft implements FarmVehicle {
-//    public boolean isFertilize(CropRow cropRow) {
-//        if(fly()){
-//            for(CropRow cropRow : cropRow){
-//                cropRow.fertilize();
-//            }
-//            fertilized = true;
-//        }
-//        return fertilized;
-//    }
-
-    public void operate() {
-
+    public boolean isFertilize(CropRow cropRow) {
+        if (fly()) {
+            boolean hasBeenFertilized = true;
+        }
+        return false;
     }
 
-    public void makeNoise() {
+
+    public void operate() {
 
     }
 
