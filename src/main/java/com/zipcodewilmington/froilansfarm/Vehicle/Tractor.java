@@ -12,9 +12,6 @@ public class Tractor<TractorT extends Farmer> extends Vehicle implements FarmVeh
 
     }
 
-    public void makeNoise() {
-
-    }
 
     public Boolean mounted() {
 
@@ -23,6 +20,10 @@ public class Tractor<TractorT extends Farmer> extends Vehicle implements FarmVeh
 
     public Boolean dismounted() {
 
+        return null;
+    }
+
+    public String makeNoise() {
         return null;
     }
 }
