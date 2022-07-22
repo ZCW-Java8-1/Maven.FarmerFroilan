@@ -3,6 +3,7 @@ package com.zipcodewilmington.froilansfarm.person;
 import com.zipcodewilmington.froilansfarm.Eater;
 import com.zipcodewilmington.froilansfarm.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.Produce;
+import com.zipcodewilmington.froilansfarm.Rideable;
 import com.zipcodewilmington.froilansfarm.shelter.Silo;
 
 import java.util.ArrayList;
@@ -24,8 +25,8 @@ public abstract class Person implements NoiseMaker, Eater {
 
     List<Produce> stomach = new ArrayList<Produce>();
 
-    public void mounts() {
-
+    public void mounts (Rideable rideable) {
+        rideable.isRiding();
     }
 
     public void dismounts() {

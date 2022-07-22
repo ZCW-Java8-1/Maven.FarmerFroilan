@@ -24,8 +24,8 @@ public class Cropduster extends Aircraft implements FarmVehicle {
         System.out.println("F-f-frroommm");
     }
 
-    public Boolean isRiding(){
-        return null;
+    public void isRiding(){
+
     }
 
     public void stopRiding() {
