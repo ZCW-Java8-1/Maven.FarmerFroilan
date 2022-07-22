@@ -14,6 +14,21 @@ public class Cropduster extends Aircraft implements FarmVehicle {
     }
 
     public void fertilize(CropRow cropRow){
+        if (fly() == true){
+            fertilize(cropRow);
+        }
+
+    }
+
+    public String makeNoise(){
+        return makeNoise();
+    }
+
+    public Boolean isRiding(){
+        return null;
+    }
+
+    public void stopRiding() {
 
     }
 }
