@@ -16,11 +16,13 @@ public class Tractor<TractorT extends Farmer> extends Vehicle implements FarmVeh
 
     }
 
-    public void mounted() {
+    public Boolean mounted() {
 
+        return null;
     }
 
-    public void dismounted() {
+    public Boolean dismounted() {
 
+        return null;
     }
 }

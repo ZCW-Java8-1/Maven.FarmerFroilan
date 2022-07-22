@@ -1,6 +1,5 @@
 package com.zipcodewilmington.froilansfarm.Vehicle;
 
-import com.zipcodewilmington.froilansfarm.Person.Person;
 import com.zipcodewilmington.froilansfarm.Person.Pilot;
 
 public class AirCraft extends Vehicle<Pilot> {
@@ -15,12 +14,14 @@ public class AirCraft extends Vehicle<Pilot> {
 
     }
 
-    public void mounted() {
+    public Boolean mounted() {
 
+        return null;
     }
 
-    public void dismounted() {
+    public Boolean dismounted() {
 
+        return null;
     }
 }
 
