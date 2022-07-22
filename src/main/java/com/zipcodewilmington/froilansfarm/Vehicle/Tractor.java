@@ -15,4 +15,14 @@ public class Tractor<TractorT extends Farmer> extends Vehicle implements FarmVeh
     public void makeNoise() {
 
     }
+
+    public Boolean mounted() {
+
+        return null;
+    }
+
+    public Boolean dismounted() {
+
+        return null;
+    }
 }
