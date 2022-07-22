@@ -6,11 +6,13 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 
 public class Horse <Animal> implements Rideable {
 
-    public void mounted() {
+    public Boolean mounted() {
 
+        return null;
     }
 
-    public void dismounted() {
+    public Boolean dismounted() {
 
+        return null;
     }
 }
