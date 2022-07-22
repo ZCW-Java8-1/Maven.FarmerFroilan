@@ -6,16 +6,8 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.Produce.Crop;
 import com.zipcodewilmington.froilansfarm.Produce.Produce;
 
-public class Chicken extends Animal implements Produce {
+public class Chicken extends Animal {
 
-
-    public Boolean fertilize() {
-        return null;
-    }
-
-    public Crop plant() {
-        return null;
-    }
 
     public void eat() {
 
@@ -26,6 +18,6 @@ public class Chicken extends Animal implements Produce {
     }
 
     public String makeNoise() {
-        return null;
+        return "Peep!";
     }
 }

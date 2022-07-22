@@ -16,13 +16,12 @@ public class ChickenTest {
     }
 
     @Test
-    public void fertilizedTest() {
-    }
-
-    @Test
     public void makeNoiseTest(){
+        //Given
         Chicken chicken = new Chicken();
+        //When
         String noise = "Peep!";
+        //Then
         Assert.assertEquals(noise, chicken.makeNoise());
 
     }
