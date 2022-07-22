@@ -10,8 +10,8 @@ public class AirCraft extends Vehicle<Pilot> {
         return isFlying;
     };
 
-    public void makeNoise() {
-
+    public String makeNoise() {
+        return null;
     }
 
     public Boolean mounted() {
