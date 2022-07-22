@@ -27,10 +27,4 @@ public class MondayTest {
     public void breakfastFroilandaTest() {
 //        Assert.assertEquals("2 EarCorn, 1 Tomato, 2 Egg", FarmHouse.getPerson(1).mealsEaten().toString);
     }
-    @Test
-    public void fertilizedTest() {
-//        Assert.assertTrue(Field.getRow(0).fertilized());
-    }
 }
-
-//dart flutter swift ios
