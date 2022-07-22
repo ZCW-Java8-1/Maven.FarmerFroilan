@@ -27,8 +27,8 @@ public class Tractor extends Vehicle implements FarmVehicle{
     }
 
 
-    public String makeNoise(){
-        return makeNoise();
+    public void makeNoise(){
+        System.out.println("B-b-brruummm");
     }
 
     public Boolean isRiding(){

@@ -23,4 +23,9 @@ public class Silo<T extends Holdable> {
             storage.put(produce, count + 1);
         }
 
+        public static void subtractProduce(String produce){
+            Integer count = storage.get(produce);
+            storage.put(produce, count -1);
+        }
+
 }
