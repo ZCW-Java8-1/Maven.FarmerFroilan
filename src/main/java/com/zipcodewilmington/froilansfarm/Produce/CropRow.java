@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class CropRow<Crop> {
 //CropRow<Crop> cropRow = new CropRow(0);
 Integer numOfCrops;
+Boolean hasBeenHarvested;
 
     public CropRow(Integer numOfCrops,Crop crop) {
         this.numOfCrops = numOfCrops;
