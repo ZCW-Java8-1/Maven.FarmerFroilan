@@ -12,6 +12,6 @@ public class Farmer extends Person {
     }
 
     public void plants(Crop crop) {
-        CropRow.plantCrop(crop);
+        CropRow.add(crop);
     }
 }
