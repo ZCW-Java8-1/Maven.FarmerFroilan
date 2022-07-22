@@ -1,5 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Animal;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -7,10 +8,12 @@ import static org.junit.Assert.*;
 public class ChickenTest {
 
     @Test
-    public void fertilize() {
+    public void isAnAnimal() {
+        Chicken chicken = new Chicken();
+        Assert.assertTrue(chicken instanceof Animal);
     }
 
     @Test
-    public void plant() {
+    public void fertilizedTest() {
     }
 }

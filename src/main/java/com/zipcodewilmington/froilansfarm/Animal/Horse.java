@@ -4,7 +4,7 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Rideable;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 
-public class Horse <Animal> implements Rideable {
+public class Horse extends Animal implements Rideable {
 
     public Boolean mounted() {
 
@@ -14,5 +14,17 @@ public class Horse <Animal> implements Rideable {
     public Boolean dismounted() {
 
         return null;
+    }
+
+    public void eat() {
+
+    }
+
+    public Boolean hasBeenFed() {
+        return null;
+    }
+
+    public void makeNoise() {
+
     }
 }
