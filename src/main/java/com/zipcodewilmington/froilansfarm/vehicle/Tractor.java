@@ -31,8 +31,8 @@ public class Tractor extends Vehicle implements FarmVehicle{
         System.out.println("B-b-brruummm");
     }
 
-    public Boolean isRiding(){
-        return null;
+    public void isRiding(){
+
     }
 
     public void stopRiding() {
