@@ -1,13 +1,12 @@
 package com.zipcodewilmington.froilansfarm.shelter;
 
-import com.sun.tools.javac.util.List;
+import com.zipcodewilmington.froilansfarm.Holdable;
 import com.zipcodewilmington.froilansfarm.crops.Crop;
-
 import java.util.ArrayList;
 
-public class CropRow {
+public class CropRow extends Shelter {
 
-     ArrayList<Crop> cropRow = new ArrayList<Crop>();
+     static ArrayList<Crop> cropRow = new ArrayList<Crop>();
 
      public CropRow(){
           CropRow cropRow = new CropRow();
@@ -24,6 +23,7 @@ public class CropRow {
           this.cropRow.clear();
      }
 
-
-
+     public static void plantCrop(Crop crop){
+          cropRow.add(crop);
+     }
 }
