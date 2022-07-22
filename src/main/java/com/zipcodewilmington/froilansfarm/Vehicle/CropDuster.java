@@ -1,12 +1,11 @@
 package com.zipcodewilmington.froilansfarm.Vehicle;
 
-import com.zipcodewilmington.froilansfarm.Person.Pilot;
 import com.zipcodewilmington.froilansfarm.Produce.CropRow;
 
 public class CropDuster extends AirCraft implements FarmVehicle {
 //    public boolean isFertilize(CropRow cropRow) {
 //        if(fly()){
-//            for(CropRow crop : cropRow){
+//            for(CropRow cropRow : cropRow){
 //                cropRow.fertilize();
 //            }
 //            fertilized = true;
@@ -22,11 +21,13 @@ public class CropDuster extends AirCraft implements FarmVehicle {
 
     }
 
-    public void mounted() {
+    public Boolean mounted() {
 
+        return null;
     }
 
-    public void dismounted() {
+    public Boolean dismounted() {
 
+        return null;
     }
 }
