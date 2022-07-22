@@ -20,8 +20,8 @@ public class Cropduster extends Aircraft implements FarmVehicle {
 
     }
 
-    public String makeNoise(){
-        return makeNoise();
+    public void makeNoise(){
+        System.out.println("F-f-frroommm");
     }
 
     public Boolean isRiding(){
