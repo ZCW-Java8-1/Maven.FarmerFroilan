@@ -5,11 +5,14 @@ import com.zipcodewilmington.froilansfarm.Person.Pilot;
 
 public class AirCraft extends Vehicle<Pilot> {
 
-    public void fly(){
+    public void fly() {
 
     };
 
-    public String makeNoise() {
-        return null;
+    public void makeNoise() {
+
     }
+
 }
+
+
