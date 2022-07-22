@@ -1,4 +1,10 @@
 package com.zipcodewilmington.froilansfarm.vehicle;
 
-public abstract class FarmVehicle extends Vehicle {
+import com.zipcodewilmington.froilansfarm.shelter.Farm;
+
+public interface FarmVehicle {
+
+    public void operate(Farm farm);
+
+
 }
