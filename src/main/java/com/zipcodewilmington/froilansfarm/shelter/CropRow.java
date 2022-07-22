@@ -12,18 +12,18 @@ public class CropRow extends Shelter {
           CropRow cropRow = new CropRow();
      }
 
-     public Crop getCrop(int integer) {
+     public Crop getObject(int integer) {
           return cropRow.get(integer);
      }
      public int getSize() {
           return cropRow.size();
      }
 
-     public void clearRow(){
+     public void clear(){
           this.cropRow.clear();
      }
 
-     public static void plantCrop(Crop crop){
+     public static void add(Crop crop){
           cropRow.add(crop);
      }
 }
