@@ -6,16 +6,6 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 
 public class Horse extends Animal implements Rideable {
 
-    public Boolean mounted() {
-
-        return null;
-    }
-
-    public Boolean dismounted() {
-
-        return null;
-    }
-
     public void eat() {
 
     }
@@ -24,8 +14,17 @@ public class Horse extends Animal implements Rideable {
         return null;
     }
 
-    @Override
     public String makeNoise() {
         return "Neigh!";
+    }
+
+    @Override
+    public Boolean mounted(Rider object) {
+        return null;
+    }
+
+    @Override
+    public Boolean dismounted(Rider object) {
+        return null;
     }
 }
