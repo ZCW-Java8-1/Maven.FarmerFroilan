@@ -3,8 +3,13 @@ package com.zipcodewilmington.froilansfarm.Vehicle;
 import com.zipcodewilmington.froilansfarm.Person.Person;
 import com.zipcodewilmington.froilansfarm.Person.Pilot;
 
-public interface AirCraft<AircraftT extends Vehicle> {
+public class AirCraft extends Vehicle<Pilot> {
 
-    void fly();
+    public void fly(){
 
+    };
+
+    public String makeNoise() {
+        return null;
+    }
 }

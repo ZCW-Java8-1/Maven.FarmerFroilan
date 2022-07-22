@@ -3,11 +3,16 @@ package com.zipcodewilmington.froilansfarm.Vehicle;
 import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 
-public abstract class Vehicle<VehicleT extends Rider> implements NoiseMaker {
+import java.util.ArrayList;
+import java.util.List;
 
-    public VehicleT vObj1;
+public abstract class Vehicle<VehicleT extends Rider> implements NoiseMaker {
+    public String makeNoise() {
+        return "brrrrrr";
+    }
 
     void operate() {
 
     }
+
 }
