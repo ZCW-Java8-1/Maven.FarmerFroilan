@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class ChickenTest {
 
     @Test
-    public void isAnAnimal() {
+    public void isAnAnimalTest() {
         //Given
         Chicken chicken = new Chicken();
         //Then

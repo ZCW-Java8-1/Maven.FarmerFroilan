@@ -18,12 +18,10 @@ public class Horse extends Animal implements Rideable {
         return "Neigh!";
     }
 
-    @Override
     public Boolean mounted(Rider object) {
         return null;
     }
 
-    @Override
     public Boolean dismounted(Rider object) {
         return null;
     }
