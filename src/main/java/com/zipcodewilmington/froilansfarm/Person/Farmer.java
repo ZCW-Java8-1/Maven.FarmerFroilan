@@ -8,18 +8,19 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 import com.zipcodewilmington.froilansfarm.Produce.Crop;
 import com.zipcodewilmington.froilansfarm.Produce.CropRow;
 
-public class Farmer <Person, Botanist>  implements Rider  {
-    public Boolean mount() {
+public class Farmer <PersonType, Botanist>  implements Rider  {
 
-        return true;
-    }
-
-    public Boolean dismount() {
-        return false;
-    }
 
     public boolean plant(Crop crop, CropRow cropRow) {
         return true;
+    }
+
+    public Boolean mount(Horse object) {
+        return null;
+    }
+
+    public Boolean dismount(Horse object) {
+        return null;
     }
 
 
