@@ -1,9 +1,19 @@
 package com.zipcodewilmington.froilansfarm.Vehicle;
 
+import com.zipcodewilmington.froilansfarm.Person.Farmer;
+import com.zipcodewilmington.froilansfarm.Person.Pilot;
+import com.zipcodewilmington.froilansfarm.Produce.Crop;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class TestCropDuster {
+
+    @Test
+    public void testMount(){
+        Pilot pilot = new Pilot();
+        CropDuster cropDuster = new CropDuster();
+        pilot.mount();
+    }
 
     @Test
     public void testExtendsAirCraft(){
@@ -21,6 +31,15 @@ public class TestCropDuster {
         Assert.assertTrue(cropDuster instanceof FarmVehicle);
     }
 
+    @Test
+    public void testNoise(){
+        CropDuster cropDuster = new CropDuster();
+        String expected = "chopchopchop";
+
+        String actual = cropDuster.makeNoise();
+
+        Assert.assertEquals(actual, expected);
+    }
     @Test
     public void testFertilize() {
         //given

@@ -1,5 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Vehicle;
 
+import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 import com.zipcodewilmington.froilansfarm.Person.Farmer;
 
 public class Tractor<TractorT extends Farmer> extends Vehicle implements FarmVehicle{
@@ -24,6 +25,14 @@ public class Tractor<TractorT extends Farmer> extends Vehicle implements FarmVeh
     }
 
     public String makeNoise() {
+        return "vroooom";
+    }
+
+    public Boolean mounted(Rider object) {
+        return null;
+    }
+
+    public Boolean dismounted(Rider object) {
         return null;
     }
 }
