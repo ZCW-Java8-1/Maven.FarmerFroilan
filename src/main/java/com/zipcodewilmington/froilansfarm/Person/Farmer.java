@@ -5,19 +5,21 @@ import com.zipcodewilmington.froilansfarm.GenericUtils.Eater;
 import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Rideable;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
+import com.zipcodewilmington.froilansfarm.Produce.Crop;
+import com.zipcodewilmington.froilansfarm.Produce.CropRow;
 
 public class Farmer <Person, Botanist>  implements Rider  {
     public Boolean mount() {
 
-        return null;
+        return true;
     }
 
-
-
-
-
     public Boolean dismount() {
-        return null;
+        return false;
+    }
+
+    public boolean plant(Crop crop, CropRow cropRow) {
+        return true;
     }
 
 
