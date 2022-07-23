@@ -5,8 +5,8 @@ import com.zipcodewilmington.froilansfarm.Produce.CropRow;
 
 public class Botanist {
 
-void plant(Crop crop, CropRow cropRow) {
-
+ public boolean plant(Crop crop, CropRow cropRow) {
+return true;
     }
 
 
