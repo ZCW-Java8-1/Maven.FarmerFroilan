@@ -23,7 +23,7 @@ public class HorseTest {
         Horse horse = new Horse();
         Farmer farmer = new Farmer();
         //When
-        Assert.assertEquals(true, farmer.mount(horse));
+        Assert.assertEquals(horse.mounted(farmer), farmer.mount(horse));
     }
 
     @Test
@@ -32,7 +32,7 @@ public class HorseTest {
         Horse horse = new Horse();
         Farmer farmer = new Farmer();
         //Assert
-        Assert.assertEquals(true, farmer.dismount(horse));
+        Assert.assertEquals(horse.dismounted(farmer), farmer.dismount(horse));
     }
 
     @Test
