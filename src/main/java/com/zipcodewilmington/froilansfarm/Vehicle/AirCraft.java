@@ -1,5 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Vehicle;
 
+import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 import com.zipcodewilmington.froilansfarm.Person.Pilot;
 
 public class AirCraft extends Vehicle<Pilot> {
@@ -11,7 +12,7 @@ public class AirCraft extends Vehicle<Pilot> {
     };
 
     public String makeNoise() {
-        return null;
+        return "chopchopchop";
     }
 
     public Boolean mounted() {
@@ -21,6 +22,14 @@ public class AirCraft extends Vehicle<Pilot> {
 
     public Boolean dismounted() {
 
+        return null;
+    }
+
+    public Boolean mounted(Rider object) {
+        return null;
+    }
+
+    public Boolean dismounted(Rider object) {
         return null;
     }
 }
