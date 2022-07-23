@@ -3,7 +3,7 @@ package com.zipcodewilmington.froilansfarm.Person;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Eater;
 import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 
-public class Person implements NoiseMaker, Eater {
+public class Person<PersonType> implements NoiseMaker, Eater {
     public Person (String name, int age, boolean hasBeenFed){
         this. name = name;
         this.age = age;
