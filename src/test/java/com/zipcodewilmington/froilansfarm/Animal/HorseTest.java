@@ -1,5 +1,7 @@
 package com.zipcodewilmington.froilansfarm.Animal;
 
+import com.zipcodewilmington.froilansfarm.GenericUtils.Rideable;
+import com.zipcodewilmington.froilansfarm.Person.Farmer;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -15,10 +17,20 @@ public class HorseTest {
     }
     @Test
     public void mounted() {
+        //Given
+        Horse horse = new Horse();
+        Farmer farmer = new Farmer();
+        //When
+        Assert.assertEquals(true, farmer.mount(horse));
     }
 
     @Test
     public void dismounted() {
+        //Given
+        Horse horse = new Horse();
+        Farmer farmer = new Farmer();
+        //When
+        Assert.assertEquals(horse.dismounted(), farmer.dismount());
     }
 
     @Test
