@@ -8,12 +8,12 @@ import org.junit.Test;
 
 public class TestCropDuster {
 
-    @Test
-    public void testMount(){
-        Pilot pilot = new Pilot();
-        CropDuster cropDuster = new CropDuster();
-        pilot.mount();
-    }
+//    @Test
+//    public void testMount(){
+//        Pilot pilot = new Pilot();
+//        CropDuster cropDuster = new CropDuster();
+//        pilot.mount();
+//    }
 
     @Test
     public void testExtendsAirCraft(){
