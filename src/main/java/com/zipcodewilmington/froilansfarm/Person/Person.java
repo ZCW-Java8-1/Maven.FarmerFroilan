@@ -20,6 +20,7 @@ public class Person<PersonType> implements NoiseMaker, Eater {
 
     public void setName(String name) {
         this.name = name;
+
     }
 
     public int getAge() {
