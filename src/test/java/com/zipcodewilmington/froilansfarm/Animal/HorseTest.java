@@ -12,31 +12,36 @@ public class HorseTest {
 
     @Test
     public void isAnAnimalTest(){
+        //Arrange
         Horse horse = new Horse();
+        //Assert
         Assert.assertTrue(horse instanceof Animal);
     }
     @Test
-    public void mounted() {
-        //Given
+    public void mountedTest() {
+        //Arrange
         Horse horse = new Horse();
         Farmer farmer = new Farmer();
         //When
-        Assert.assertEquals(true, farmer.mount(horse));
+        Assert.assertEquals(horse.mounted(farmer), farmer.mount(horse));
     }
 
     @Test
-    public void dismounted() {
-        //Given
+    public void dismountedTest() {
+        //Arrange
         Horse horse = new Horse();
         Farmer farmer = new Farmer();
-        //When
-        Assert.assertEquals(horse.dismounted(), farmer.dismount());
+        //Assert
+        Assert.assertEquals(horse.dismounted(farmer), farmer.dismount(horse));
     }
 
     @Test
     public void makeNoiseTest(){
+        //Arrange
         Horse horse = new Horse();
+        //Act
         String noise = "Neigh!";
+        //Assert
         Assert.assertEquals(noise, horse.makeNoise());
 
     }
