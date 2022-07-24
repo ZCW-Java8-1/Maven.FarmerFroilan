@@ -8,6 +8,7 @@ public class Horse extends Animal implements Rideable {
 
     public Boolean eat() {
 
+        return null;
     }
 
     public Boolean hasBeenFed() {
