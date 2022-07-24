@@ -11,6 +11,7 @@ public class Chicken extends Animal {
 
     public Boolean eat() {
 
+        return null;
     }
 
     public Boolean hasBeenFed() {
