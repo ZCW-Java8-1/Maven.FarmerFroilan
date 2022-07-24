@@ -40,8 +40,8 @@ public class Person<PersonType> implements NoiseMaker, Eater {
     }
 
 
-    public void eat() {
-
+    public Boolean eat() {
+return true;
     }
 
     public Boolean hasBeenFed() {
