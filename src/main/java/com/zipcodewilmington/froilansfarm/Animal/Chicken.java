@@ -10,8 +10,7 @@ public class Chicken extends Animal {
 
 
     public Boolean eat() {
-
-        return null;
+return true;
     }
 
     public Boolean hasBeenFed() {
