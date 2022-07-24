@@ -10,6 +10,7 @@ import org.junit.Test;
 
 public class TestCropDuster {
 
+
     @Test
     public void testOperate(){
         CropDuster cropDuster = new CropDuster();
@@ -34,6 +35,7 @@ public class TestCropDuster {
 
         Assert.assertEquals(actual, cropDuster.dismounted(pilot));
     }
+
 
     @Test
     public void testExtendsAirCraft(){
